@@ -46,11 +46,11 @@
 
         MessageBox.Show("Hai : " & nama & vbCrLf &
                         "NIP : " & nip & vbCrLf &
+                        "Jenis Kelamin : " & jenisKelamin & vbCrLf &
                         "Fakultas : " & fakultas & vbCrLf &
                         "Jurusan : " & jurusan & vbCrLf &
-                        "Jenis Kelamin : " & jenisKelamin & vbCrLf &
-                        "Nilai Akhir: " & total.ToString("F2") & vbCrLf &
-                        "GRADE: " & grade,
+                        "Nilai Akhir : " & total.ToString("F2") & vbCrLf &
+                        "GRADE : " & grade,
                         "Informasi",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information)
@@ -75,10 +75,11 @@
                 cmbJurusan.Items.Add("Ilmu Komputer")
             Case "FKIP"
                 cmbJurusan.Items.Add("Pendidikan Teknologi Informasi")
-                cmbJurusan.Items.Add("Pendidikan Jasmani")
+                cmbJurusan.Items.Add("Pendidikan Matematika")
+                cmbJurusan.Items.Add("Pendidikan Fisika")
             Case "FEB"
                 cmbJurusan.Items.Add("Manajemen")
-                cmbJurusan.Items.Add("Perbankan")
+                cmbJurusan.Items.Add("Ekonomi Pembangunan")
                 cmbJurusan.Items.Add("Akuntansi")
         End Select
 
@@ -92,18 +93,16 @@
         txtUTS.Clear()
         txtUAS.Clear()
 
-        ' Mengosongkan ComboBox
         cmbFakultas.SelectedIndex = -1
         cmbJurusan.Items.Clear()
         cmbJurusan.Text = ""
 
-        ' Menghapus pilihan RadioButton
         rbL.Checked = False
         rbP.Checked = False
 
-        ' Fokus kembali ke NIP untuk kemudahan input baru
         txtNIP.Focus()
 
     End Sub
+
 End Class
   

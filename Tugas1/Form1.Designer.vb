@@ -191,6 +191,7 @@ Partial Class Form1
         Me.txtTugas.Name = "txtTugas"
         Me.txtTugas.Size = New System.Drawing.Size(50, 23)
         Me.txtTugas.TabIndex = 17
+        Me.txtTugas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtUTS
         '
@@ -199,6 +200,7 @@ Partial Class Form1
         Me.txtUTS.Name = "txtUTS"
         Me.txtUTS.Size = New System.Drawing.Size(50, 23)
         Me.txtUTS.TabIndex = 18
+        Me.txtUTS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtUAS
         '
@@ -207,6 +209,7 @@ Partial Class Form1
         Me.txtUAS.Name = "txtUAS"
         Me.txtUAS.Size = New System.Drawing.Size(47, 23)
         Me.txtUAS.TabIndex = 19
+        Me.txtUAS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'rbP
         '
