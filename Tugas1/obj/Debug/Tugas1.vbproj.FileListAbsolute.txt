@@ -8,4 +8,3 @@ C:\Users\achma\OneDrive\Documents\Tugas1\Tugas1\obj\Debug\Tugas1.vbproj.Generate
 C:\Users\achma\OneDrive\Documents\Tugas1\Tugas1\obj\Debug\Tugas1.exe
 C:\Users\achma\OneDrive\Documents\Tugas1\Tugas1\obj\Debug\Tugas1.xml
 C:\Users\achma\OneDrive\Documents\Tugas1\Tugas1\obj\Debug\Tugas1.pdb
-C:\Users\achma\OneDrive\Documents\Tugas1\Tugas1\obj\Debug\Tugas1.Form2.resources
